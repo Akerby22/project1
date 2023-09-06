@@ -1,0 +1,47 @@
+.background {
+background-image: url("https://cdn.pixabay.com/photo/2021/05/10/17/17/mountains-6243826_960_720.jpg");
+background-color: black;
+background-size: 1600px;
+}
+h1 {
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 60px;
+}
+h3 {
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+}
+.info-box {
+margin-top: -20px;
+margin-left: -10px;
+margin-right: -10px;
+padding-top: 1px;
+height: 52px;
+background-color: dimgray;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+}
+/* unvisited link */
+a:link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: gray;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: orange;
+  }
+  
+  /* selected link */
+  a:active {
+    color: black;
+  }

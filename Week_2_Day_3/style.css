@@ -1,0 +1,15 @@
+label {
+    font-family: 'Roboto', sans-serif;
+}
+form{
+    margin: 350px 350px 350px 350px;
+    padding: 5px 20px 20px 20px;
+    border: 1px solid black;
+}
+h2 {
+    text-align: center;
+}
+.submit {
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+}

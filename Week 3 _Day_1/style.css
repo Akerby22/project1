@@ -1,0 +1,59 @@
+body{
+    background-color:#ADD8E6;
+}
+h3 {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+#nav {
+    background-color: #87CEFA;
+    padding: 0 20px;
+    margin: -8px -8px 0px -8px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 1px;
+    border-color: blue;
+    text-align: right;
+  }
+  
+  #nav a {
+    color: #000080;
+    font-size: 18px;
+  }
+#company {
+    text-align: left;
+    color: #000080;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#content-box {
+    width: 250px;
+    height: 500px;
+    border: solid 1px;
+    background-color:  	#4682B4;
+    border-color: blue;
+    margin: 20px 20px 20px 20px;
+    float: left;
+    border-radius: 10px;
+}
+#content-box p {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#info-button {
+    height: 50px;
+    width: 200px;
+    background-color:#4169E1;
+    margin: 200px auto auto auto;
+    border: solid 1px;
+    border-color: blue;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 30px;
+}
+#box-align {
+    margin: auto auto auto 200px;
+}

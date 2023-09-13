@@ -1,0 +1,95 @@
+body {
+  background-color: black;
+}
+.fresh {
+    background: url(https://cdn.pixabay.com/photo/2017/04/05/01/14/food-2203697_1280.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-bottom: 25%;
+}
+.thresh {
+    padding-bottom: auto;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+a {
+    text-decoration: none;
+    margin: 0 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+}
+h2 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content-box {
+    width: 400px;
+    height: 400px;
+    background-color:  	black;
+    padding-top: 40px;
+}
+#content-box p {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 50px 0 0 10px;
+    font-size: 15px;   
+}
+

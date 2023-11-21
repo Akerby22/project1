@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1.center-text {
+    text-align: center;
+    font-family: 'Helvetica', sans-serif;
+    padding-right: 60px;
+}
+h2 {
+    float: left;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 10px;
+}
+#original-post {
+    background-color: #ddd;
+    padding: 10px;
+}
+
+#comment-section {
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+.comment {
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.comment-buttons {
+    margin-top: 5px;
+}
+
+.comment-buttons button {
+    background-color: black;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.comment-buttons button:hover {
+    background-color: #333;
+}
+
+.edit-input {
+    width: calc(100% - 20px);
+    resize: vertical;
+}
+
+.submit-edit {
+    background-color: black;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-edit:hover {
+    background-color: #333;
+}
+
+#new-comment {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#new-comment textarea {
+    width: calc(100% - 20px);
+    resize: vertical;
+}
+
+#post-comment {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#post-comment:hover {
+    background-color: #333;
+}
